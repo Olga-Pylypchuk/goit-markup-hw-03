@@ -158,8 +158,16 @@ cursor: pointer;
 
 /*main*/
 .visually-hidden {
- display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 .advantages-container {
     padding: 120px 0;
 }
@@ -174,6 +182,10 @@ background-color: #f4f4fd;
 .list-advnt {
 display: flex;
 gap: 24px;
+}
+
+.item-advnt {
+width: calc((100% - 72px) / 4);
 }
 
 .list-team {
