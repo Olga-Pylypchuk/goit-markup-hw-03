@@ -157,15 +157,8 @@ cursor: pointer;
 }
 
 /*main*/
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    white-space: nowrap;
+.caption {
+  visibility: hidden; 
 }
 .section-advantages {
  padding: 120px 0;
