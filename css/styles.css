@@ -140,7 +140,7 @@ display: block;
 padding: 16px 0;
 border: 0;
 border-radius: 4px;
-min-height: 169px; 
+min-width: 169px; 
 height: 56px;   
 font-weight: 500;
 font-size: 16px;
@@ -182,7 +182,7 @@ gap: 24px;
 }
 
 .item-team {
-padding: 32px 16px;
+padding: 32px 0;
 }
 
 .item-team .subtitle {
@@ -203,8 +203,9 @@ text-align: center;
 .team-item { 
 background-color:  #FFFFFF;
 border-radius: 0 0 4px 4px;
-
+width: calc((100% - 72px) / 4);
 }
+
 .list-portfolio {
     display: flex;
     gap: 48px 24px;
