@@ -157,8 +157,8 @@ cursor: pointer;
 }
 
 /*main*/
-.hidden-title {
-    display: none;
+.visually-hidden {
+ display: none;
 }
 .advantages-container {
     padding: 120px 0;
@@ -209,6 +209,7 @@ border-radius: 0 0 4px 4px;
 .list-portfolio {
     display: flex;
     gap: 48px 24px;
+    flex-wrap: wrap;
 }
 
 .item-portfolio {
@@ -251,7 +252,7 @@ margin-bottom: 8px;
 }
 
 .paje-footer {
-    padding: 100px;
+    padding: 100px 0; 
     background-color: #2e2f42;
 }  
 .footer-text {
