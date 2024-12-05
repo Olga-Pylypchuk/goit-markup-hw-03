@@ -167,7 +167,9 @@ cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
 }
-
+.section-advantages {
+ padding: 120px 0;
+}
 .advantages-container {
     padding: 120px 0;
 }
@@ -188,6 +190,9 @@ gap: 24px;
 width: calc((100% - 72px) / 4);
 }
 
+.section-team {
+padding: 120px 0;
+}
 .list-team {
 display: flex;
 gap: 24px;
@@ -216,6 +221,11 @@ text-align: center;
 background-color:  #FFFFFF;
 border-radius: 0 0 4px 4px;
 width: calc((100% - 72px) / 4);
+}
+
+.section-portfolio {
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .list-portfolio {
