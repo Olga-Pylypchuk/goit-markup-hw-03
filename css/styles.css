@@ -27,7 +27,7 @@ a {
     margin: 0 auto;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -121,7 +121,7 @@ padding: 188px 0;
 }    
 
 .hero-title {
- width: 496px;   
+max-width: 496px;   
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 48px;
@@ -140,7 +140,7 @@ display: block;
 padding: 16px 0;
 border: 0;
 border-radius: 4px;
-width: 169px; 
+min-height: 169px; 
 height: 56px;   
 font-weight: 500;
 font-size: 16px;
@@ -174,14 +174,13 @@ background-color: #f4f4fd;
 .list-advnt {
 display: flex;
 gap: 24px;
-width: calc(1128-72)/4; 
-
 }
+
 .list-team {
 display: flex;
 gap: 24px;
-width: calc(1128-72)/4;
 }
+
 .item-team {
 padding: 32px 16px;
 }
@@ -221,6 +220,9 @@ border-right: 1px solid #e7e9fc;
 
 .item-portfolio .subtitle {
 margin-bottom: 8px;
+}
+.item-banking {
+width: calc((100% - 48px) / 3)   
 }
 .subject {
     margin-bottom: 72px;
