@@ -173,17 +173,8 @@ cursor: pointer;
 .section-advantages {
  padding: 120px 0;
 }
-.advantages-container {
-    padding: 120px 0;
-}
 
-.team-container {
-padding: 120px 0;
-background-color: #f4f4fd;
-}
-.prtfl-container {
-    padding: 120px 0;
-}
+
 .list-advnt {
 display: flex;
 gap: 24px;
@@ -195,6 +186,7 @@ width: calc((100% - 72px) / 4);
 
 .section-team {
 padding: 120px 0;
+background-color: #f4f4fd;
 }
 .list-team {
 display: flex;
@@ -215,9 +207,6 @@ margin-bottom: 8px;
 margin-left: auto;
 margin-right: auto;
 text-align: center;  
-}
-.section-team {
-    background-color: #f4f4fd;
 }
 
 .team-item { 
